@@ -1,24 +1,77 @@
-# Bankati - Gestion des Transactions et Paiements
+# 💳 Bankati - Plateforme de Paiement & Transactions (Microservices)
 
-Bankati est une application complète de gestion de transactions et de paiements, développée pour simplifier les interactions financières et améliorer la sécurité des transactions en adoptant une architecture microservices. Le projet se divise en trois modules principaux :
+Bankati est une application de gestion de transactions financières conçue avec une architecture microservices, permettant des paiements sécurisés, la gestion de portefeuilles multi-devises et l'intégration de services avancés comme les cartes virtuelles et les cryptomonnaies.
 
- - BackOffice : Gestion des agents et clients, création de comptes sécurisés, et système d'authentification et de gestion des rôles.
- - Application Agent : Interface dédiée aux agents pour ajouter des clients, gérer les souscriptions et consulter les comptes.
- - Application Client : Plateforme client pour consulter les soldes, effectuer des paiements de factures, et gérer des cartes virtuelles.
+---
 
-# Fonctionnalités principales :
- - Gestion des soldes et des transactions en temps réel.
- - Paiements sécurisés entre utilisateurs et commerçants.
- - Portefeuille multi-devises avec conversion dynamique.
- - Paiements récurrents automatisés et gestion des dépenses.
- - Intégration de la gestion des cryptomonnaies (prix en temps réel).
+## 👩‍💻 Contribution personnelle
 
-# Technologies :
- - Back-end : Spring Boot (Spring Data mongodb, Spring Security, Spring Cloud, Spring Cloud Gateway).
- - Front-end : Angular.
- - Base de données : Nosql/MongoDB.
- - Autres : JWT, Docker, Twilio, AWS.
- - https://github.com/e-Bankati
+Dans ce projet réalisé en équipe (répartition par microservices), j’ai été responsable de :
 
-#
-<img width="958" alt="Capture d’écran 2025-01-14 161608" src="https://github.com/user-attachments/assets/88110eee-2b3f-4dab-a38d-8cc7497c19ec" />
+### 🔹 Microservice User
+- Conception et développement du microservice **User** (gestion complète du cycle de vie des utilisateurs : inscription, authentification, autorisation, rôles)
+- Implémentation d’une sécurité robuste avec **Spring Security, JWT et RBAC**
+- Développement d’API REST sécurisées pour la gestion des comptes utilisateurs
+- Intégration avec l’architecture microservices via **API Gateway (Spring Cloud Gateway)** et **Service Discovery (Eureka)**
+
+### 🔹 DevOps & Déploiement
+- Conteneurisation des microservices avec **Docker**
+- Orchestration avec **Kubernetes** (déploiement, gestion des pods et services)
+- Mise en place d’un pipeline **CI/CD avec Jenkins**
+- Participation au déploiement sur **AWS**
+
+### 🔹 Architecture
+- Contribution à la conception d’une architecture microservices scalable, sécurisée et modulaire
+---
+
+## 🚀 Fonctionnalités principales
+
+- Gestion des comptes, soldes et transactions en temps réel
+- Paiements sécurisés entre utilisateurs et commerçants
+- Portefeuille multi-devises avec conversion dynamique
+- Gestion de cartes virtuelles
+- Paiements récurrents automatisés
+- Intégration de données de cryptomonnaies (prix en temps réel)
+- Notifications (SMS / OTP) via Twilio
+
+---
+
+## 🏗️ Architecture
+
+- Architecture microservices avec **Spring Boot**
+- API Gateway : **Spring Cloud Gateway**
+- Service Discovery : **Eureka**
+- Sécurité : **Spring Security + JWT + RBAC**
+- Communication via APIs REST
+- Base de données : **MongoDB**
+- Frontend : **Angular**
+
+---
+
+## 🛠️ Stack Technique
+
+**Backend :**
+- Java, Spring Boot, Spring Security, Spring Cloud
+
+**Frontend :**
+- Angular
+
+**Base de données :**
+- MongoDB
+
+**DevOps & Cloud :**
+- Docker, Kubernetes, AWS
+
+**Autres :**
+- JWT, Twilio
+
+---
+
+*## 📸 Aperçu (optionnel)*
+*(Ajoute screenshots : dashboard, transactions, etc.)*
+
+---
+
+## 🔗 Repository original
+Projet réalisé en équipe  
+👉 Repository source : https://github.com/e-Bankati
