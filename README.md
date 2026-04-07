@@ -67,11 +67,6 @@ Dans ce projet réalisé en équipe (répartition par microservices), j’ai ét
 
 ---
 
-*## 📸 Aperçu (optionnel)*
-*(Ajoute screenshots : dashboard, transactions, etc.)*
-
----
-
 ## 🔗 Repository original
 Projet réalisé en équipe  
 👉 Repository source : https://github.com/e-Bankati
